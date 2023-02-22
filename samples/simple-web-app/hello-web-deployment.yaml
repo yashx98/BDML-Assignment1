@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hellow-deployment
+  labels:
+    app: hellow
+spec:
+  selector:
+    matchLabels:
+      app: hellow
+  template:
+    metadata:
+      labels:
+        app: hellow
+    spec:
+      containers:
+      - name: hello-web
+        image: localhost:32000/hello-app:latest
+        ports:
+        - containerPort: 8080
