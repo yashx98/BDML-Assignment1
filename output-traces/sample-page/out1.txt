@@ -1,0 +1,60 @@
+{
+    "name": "sample_page_span",
+    "context": {
+        "trace_id": "0x0a38fde014fe3d99be961ad04a98566b",
+        "span_id": "0x22259677cd0030d0",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-02-22T20:49:37.447077Z",
+    "end_time": "2023-02-22T20:49:37.447672Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "success": 200
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.16.0",
+            "telemetry.auto.version": "0.37b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "sample_page_span",
+    "context": {
+        "trace_id": "0xd450d6b5534345fe9177c7974946fb47",
+        "span_id": "0x12b023d3c557c926",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-02-22T20:49:37.460959Z",
+    "end_time": "2023-02-22T20:49:37.461149Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "success": 200
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.16.0",
+            "telemetry.auto.version": "0.37b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}

@@ -1,0 +1,21 @@
+{
+  name          : ExpSpan 1
+  trace_id      : 53cf19d9fe481b7167adade0525fbb07
+  span_id       : fe4bee409167f5a1
+  tracestate    : 
+  parent_span_id: 0000000000000000
+  start         : 1677094976665934000
+  duration      : 824004167
+  description   : 
+  span kind     : Internal
+  status        : Unset
+  attributes    : 
+  events        : 
+  links         : 
+  resources     : 
+	service.name: unknown_service
+	telemetry.sdk.language: cpp
+	telemetry.sdk.name: opentelemetry
+	telemetry.sdk.version: 1.8.1
+  instr-lib     : ExperiTracer 1
+}
