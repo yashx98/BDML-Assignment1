@@ -22,6 +22,6 @@
 
 2. output-traces/sample-page/ -> Contains the traces from the sample-page.py code (Relevant UI pic in pics/sample-page_jaeger_trace.png)
 
-Opentelemetry Traces:
+### Opentelemetry Traces:
 
 output-traces/opentelemetry/ -> Contains the opentelemetry traces from samples/opentelemetry-code/sample.cc and samples/opentelemetry-code/simple-page.py
