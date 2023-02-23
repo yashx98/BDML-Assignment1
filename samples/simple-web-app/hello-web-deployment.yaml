@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hello-web
-        image: localhost:32000/hello-app:latest
+        image: localhost:32000/hello-web:latest
         ports:
         - containerPort: 8080
