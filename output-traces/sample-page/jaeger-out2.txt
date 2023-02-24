@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "traceID": "bb7a0656a9d2ad6bc5aa00d1df4c3f99",
+            "spans": [
+                {
+                    "traceID": "bb7a0656a9d2ad6bc5aa00d1df4c3f99",
+                    "spanID": "c5aa00d1df4c3f99",
+                    "operationName": "hello-service.default.svc.cluster.local:8080/*",
+                    "references": [],
+                    "startTime": 1677218252956749,
+                    "duration": 1239,
+                    "tags": [
+                        {
+                            "key": "istio.canonical_revision",
+                            "type": "string",
+                            "value": "latest"
+                        },
+                        {
+                            "key": "response_flags",
+                            "type": "string",
+                            "value": "-"
+                        },
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "proxy"
+                        },
+                        {
+                            "key": "upstream_cluster",
+                            "type": "string",
+                            "value": "inbound|8080||"
+                        },
+                        {
+                            "key": "istio.canonical_service",
+                            "type": "string",
+                            "value": "hellow"
+                        },
+                        {
+                            "key": "downstream_cluster",
+                            "type": "string",
+                            "value": "-"
+                        },
+                        {
+                            "key": "node_id",
+                            "type": "string",
+                            "value": "sidecar~10.1.60.18~hellow-deployment-7944fd9574-4cz9j.default~default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://localhost:30260/"
+                        },
+                        {
+                            "key": "request_size",
+                            "type": "string",
+                            "value": "0"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "istio.namespace",
+                            "type": "string",
+                            "value": "default"
+                        },
+                        {
+                            "key": "user_agent",
+                            "type": "string",
+                            "value": "curl/7.68.0"
+                        },
+                        {
+                            "key": "upstream_cluster.name",
+                            "type": "string",
+                            "value": "inbound|8080||"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "130.127.133.93"
+                        },
+                        {
+                            "key": "istio.mesh_id",
+                            "type": "string",
+                            "value": "cluster.local"
+                        },
+                        {
+                            "key": "response_size",
+                            "type": "string",
+                            "value": "107"
+                        },
+                        {
+                            "key": "guid:x-request-id",
+                            "type": "string",
+                            "value": "c2c6b556-1fad-9893-85ad-31e028248575"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.protocol",
+                            "type": "string",
+                            "value": "HTTP/1.1"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "hellow.default",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.1.60.18"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
